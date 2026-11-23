@@ -1,0 +1,10 @@
+{
+    "name": "biljeznica",
+    "version": "1.0.0",
+    "type": "module",
+    "description": "",
+    "main": "glavni.js",
+    "scripts": {
+        "start": "node glavni.js"
+    }
+}
