@@ -26,7 +26,6 @@ export async function ucitaj_zadatke() {
 }
 
 
-
 export async function spremi_zadatke(zadaci) {
   try {
     await fs.writeFile(putanja_datoteke, JSON.stringify(zadaci, null, 2), 'utf-8');

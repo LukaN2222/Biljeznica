@@ -1,4 +1,4 @@
-import {ucitaj_zadatke, spremi_zadatke} from './pohrana.js';
+import { ucitaj_zadatke, spremi_zadatke } from './pohrana.js';
 
 const argumenti = process.argv.slice(2);
 const naredba = argumenti[0];
@@ -63,5 +63,4 @@ async function izvrsiProgram() {
         }
     }
 }
-
 izvrsiProgram();
